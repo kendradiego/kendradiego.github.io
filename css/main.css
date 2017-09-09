@@ -1,0 +1,63 @@
+#backgroundBeach{
+	background-color: lightgrey;
+	background-size: cover;
+	height:100%;
+}
+#backgroundBeach .container p{
+	font-family: Bodoni MT Black;
+	font-size: 50px;
+	font-weight: bold;
+	color:black;
+	text-align: center;
+}
+#backgroundBeach .container h1{
+	font-family: Bodoni MT Black;
+	font-size: 100px;
+	font-weight: bold;
+	color:black;
+	text-align: center;
+}
+footer{
+	font-family: Century Gothic;
+	color:grey;
+	text-align: center;
+	font-size:20px;
+}
+.imgcontainer{
+	position: relative;
+    width: 250px;
+}
+.image{
+	opacity: 1;
+  	display: block;
+  	width: 100%;
+  	height: auto;
+  	transition: .5s ease;
+  	backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.imgcontainer:hover .image {
+  opacity: 0.3;
+}
+.imgcontainer:hover .middle {
+  opacity: 1;
+}
+.imgtext {
+  background-color: lightgray;
+  color: black;
+  font-size: 16px;
+  font-style:Century Gothic;
+  padding: 15px;
+}
+.imagescontainer1{
+  width:90%;
+  margin: 0 auto
+}
